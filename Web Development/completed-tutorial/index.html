@@ -1,0 +1,68 @@
+<!--Facebook Profile Page Tutorial!-->
+<DOCTYPE! HTML>
+<html>
+<head>
+<title>Silvia Espinoza's Profile</title>
+</head>
+<link rel="stylesheet" type="text/css" href="mystyle.css"> <!--this is where we insert the CSS link!-->
+<script src ="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+function friendship(){
+  confirm("Friend Request Sent!"); // Feel free to play around with the message!
+}
+function sendMessage(){
+  var message= prompt("Enter your message");
+}
+</script>
+<body>
+<div id ="header">
+<br>
+<br>
+<!--facebook icon goes here!-->
+<!--search bar goes next!-->
+<!--mini profile picture!-->
+<!--First Name!-->
+<!--"Home"!-->
+<!--Three icons (Friends, Messages, Notifications!-->
+<!--Privacy Settings icon and drop down!-->
+</div>
+<div id="container">
+  <div id ="coverPicture">
+    <img src ="images/mountain.jpg" alt="" style="width:75%;height:75%" align ="center">
+    <div id ="name">
+      Silvia Espinoza
+    </div>
+  </div>
+  <div id ="profilePicture">
+<img src ="images/selfie.jpg" style= "width:200px;height:200px;">
+  </div>
+  <div id ="timelineHeaderLine">
+    <br>Timeline&nbsp About&nbsp Friends&nbsp Photos&nbsp More&nbsp<br><br>
+  </div>
+  <div id ="addFriend" onclick="friendship()">
+    <button >Add Friend</button>
+  </div>
+  <div id ="message" onclick="sendMessage()">
+    <button>Message</button>
+  </div>
+  <div id ="aboutPage">
+    <div id="school">
+      <br><br>
+      &nbsp&nbspWent to UNC Charlotte<!--INSERT SCHOOL NAME!-->
+    </div>
+    <div id="from">
+      <br><br>
+      &nbsp&nbspfrom Lima, Peru<!--INSERT CITY, INSERT STATE!-->
+    </div>
+  </div>
+  <div id ="timelineBox">
+    <br><br>
+    &nbsp&nbsp<!--Add your first post here!-->
+    <img src="images/boulder.jpg" style="width:500px;height:auto">
+    <br>&nbsp&nbspWent to Garden of the Gods!<br>
+
+  </div>
+</div>
+
+</body>
+</html>

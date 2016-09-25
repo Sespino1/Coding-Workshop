@@ -1,0 +1,70 @@
+body{
+background-color:#afbdd4;
+}
+#header{
+  background-color: #3b5998;
+  margin:0;
+}
+#container{
+  margin-left:50px;
+  margin-right:50px;
+}
+#coverPicture{
+  position:relative;
+  width:100%;
+}
+#name{
+  color:white;
+  font-size:35px;
+  font-family: "Lucida Grande", "Helvetica","Times New Roman";
+  position: absolute;
+  top: 620;
+  left:235;
+  width:100%;
+}
+#profilePicture{
+  position:absolute;
+  top:500;
+  left:65;
+  border-style:solid;
+  border-color:#f7f7f7;
+  border-width:5px;
+}
+#timelineHeaderLine{
+  padding-left: 225px;
+  background-color: #f7f7f7;
+  color: #3b5998;
+  font-weight: bold;
+  font-family: "Lucida Grande", "Helvetica","Times New Roman";
+  width:62.5%;
+}
+#addFriend{
+  font-size:35px;
+  font-family: "Lucida Grande", "Helvetica","Times New Roman";
+  position: absolute;
+  top: 680;
+  left:650;
+}
+#message{
+  font-size:35px;
+  font-family: "Lucida Grande", "Helvetica","Times New Roman";
+  position: absolute;
+  top: 680;
+  left:750;
+}
+#aboutPage{
+  background-color:#f7f7f7;
+  width: 25%;
+  height:25%;
+  margin-top: 10px;
+  float:left;
+}
+#timelineBox{
+  background-color:#f7f7f7;
+  width: 49.4%;
+  height:75%;
+  margin-top: 10px;
+  margin-left:10px;
+  float:left;
+
+}
