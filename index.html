@@ -16,43 +16,54 @@ function sendMessage(){
 </script>
 <body>
 <div id ="header">
-<br>
-<br>
-<!--facebook icon goes here!-->
-<!--search bar goes next!-->
-<!--mini profile picture!-->
-<!--First Name!-->
-<!--"Home"!-->
-<!--Three icons (Friends, Messages, Notifications!-->
-<!--Privacy Settings icon and drop down!-->
+	<br>
+	<text style="color: white; font-size: 22px; margin-left: 1%;">facebook</text>
+	<br>
+	<br>
+	<!--facebook icon goes here!-->
+	<!--search bar goes next!-->
+	<!--mini profile picture!-->
+	<!--First Name!-->
+	<!--"Home"!-->
+	<!--Three icons (Friends, Messages, Notifications!-->
+	<!--Privacy Settings icon and drop down!-->
 </div>
 <div id="container">
   <div id ="coverPicture">
     <img src ="images/mountain.jpg" alt="" style="width:75%;height:75%" align ="center">
-    <div id ="name">
-      Silvia Espinoza
-    </div>
   </div>
   <div id ="profilePicture">
-<img src ="images/selfie.jpg" style= "width:200px;height:200px;">
+	<img src ="images/selfie.jpg" style= "width:200px;height:200px;">
   </div>
   <div id ="timelineHeaderLine">
-    <br>Timeline&nbsp About&nbsp Friends&nbsp Photos&nbsp More&nbsp<br><br>
-  </div>
-  <div id ="addFriend" onclick="friendship()">
-    <button >Add Friend</button>
-  </div>
-  <div id ="message" onclick="sendMessage()">
-    <button>Message</button>
-  </div>
-  <div id ="aboutPage">
-    <div id="school">
-      <br><br>
-      &nbsp&nbspWent to UNC Charlotte<!--INSERT SCHOOL NAME!-->
+    <br>
+	<text style="margin-left: 235px">Timeline&nbsp About&nbsp Friends&nbsp Photos&nbsp More&nbsp </text>
+	<div id ="addFriend" style="margin-top: 1%" onclick="friendship()">
+		<button >Add Friend</button>
+	</div>
+	<div id ="message" style="margin-top: 1%" onclick="sendMessage()">
+		<button>Message</button>
+	</div>
+	<br>
+	<div id ="name" align="left" style="margin-left: 1%">
+	  Silvia Espinoza
     </div>
-    <div id="from">
+  </div>
+  <!-- <div id ="addFriend" onclick="friendship()">
+    <button >Add Friend</button>
+  </div> -->
+  <!-- <div id ="message" onclick="sendMessage()">
+    <button>Message</button>
+  </div> -->
+  
+  <div id ="aboutPage">
+	<div id="school" style="margin-left: 2%">
       <br><br>
-      &nbsp&nbspfrom Lima, Peru<!--INSERT CITY, INSERT STATE!-->
+      Went to UNC Charlotte<!--INSERT SCHOOL NAME!-->
+    </div>
+    <div id="from" style="margin-left: 2%">
+      <br><br>
+      from Lima, Peru<!--INSERT CITY, INSERT STATE!-->
     </div>
   </div>
   <div id ="timelineBox">
