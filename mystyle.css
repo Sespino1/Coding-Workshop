@@ -24,8 +24,8 @@ background-color:#afbdd4;
 }
 #profilePicture{
   position:absolute;
-  top:500;
-  left:65;
+  top:500px;
+  left:65px;
   border-style:solid;
   border-color:#f7f7f7;
   border-width:5px;
@@ -49,8 +49,8 @@ background-color:#afbdd4;
   font-size:35px;
   font-family: "Lucida Grande", "Helvetica","Times New Roman";
   position: absolute;
-  top: 680;
-  left:750;
+  top: 680px;
+  left:750px;
 }
 #aboutPage{
   background-color:#f7f7f7;
